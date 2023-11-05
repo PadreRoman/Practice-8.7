@@ -1,0 +1,64 @@
+.game-card {
+    height: 100vh;
+    font-family: 'Open Sans', monospace;
+}
+
+body {
+    background-color: rgb(189, 250, 237);
+}
+
+#btnLess {
+    background:#eee;
+  color:rgb(170, 0, 255);
+  text-decoration:none;
+  display:block;
+  width:90px;
+  text-align:center;
+  margin:20px auto;
+  padding:10px 10px;
+  transition:all 0.3s;
+}
+#btnLess:hover{
+    box-shadow:0px -5px 0 rgb(255, 247, 0) inset;
+  }
+
+#btnOver {
+    background:#eee;
+  color:rgb(170, 0, 255);
+  text-decoration:none;
+  display:block;
+  width:90px;
+  text-align:center;
+  margin:20px auto;
+  padding:10px 10px;
+  transition:all 0.3s;
+}
+#btnOver:hover{
+    box-shadow:0px -5px 0 rgb(255, 247, 0) inset;
+  }
+  
+#btnEqual {
+    background:#009dff;
+  color:rgb(0, 0, 0);
+  text-decoration:none;
+  display:block;
+  width:90px;
+  text-align:center;
+  margin:20px auto;
+  padding:10px 10px;
+  transition:all 0.3s;
+}
+#btnEqual:hover{
+    box-shadow:0px -5px 0 rgb(122, 123, 122) inset;
+  }
+
+  #btnRetry {
+    background:#03ff14;
+  color:rgb(0, 0, 0);
+}
+
+
+div.card-footer{
+    background-color: #03d1ff;
+
+}
